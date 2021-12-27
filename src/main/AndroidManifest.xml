@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bhs.final_project">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="andorid.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="기말 프로젝트"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final_project">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity_japan"
+            android:exported="true"
+            android:label="@string/title_activity_maps_japan" />
+        <activity
+            android:name=".MapsActivity_singapore"
+            android:exported="true"
+            android:label="@string/title_activity_maps_singapore" />
+        <activity
+            android:name=".MapsActivity_kotakinablau"
+            android:exported="true"
+            android:label="@string/title_activity_maps_kotakinablau" />
+        <activity
+            android:name=".MapsActivity_korea"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".photo_list"
+            android:exported="true"
+            android:label="사진으로 보기" />
+        <activity
+            android:name=".catalog_list"
+            android:exported="true"
+            android:label="목록으로 보기" />
+        <activity
+            android:name=".catalog_korea_list"
+            android:exported="true"
+            android:label="대한민국" />
+        <activity
+            android:name=".catalog_korea_gangneung"
+            android:exported="true"
+            android:label="강릉" />
+        <activity
+            android:name=".catalog_korea_gyeongju"
+            android:exported="true"
+            android:label="경주" />
+        <activity
+            android:name=".catalog_korea_busan"
+            android:exported="true"
+            android:label="부산" />
+        <activity
+            android:name=".catalog_singapore"
+            android:exported="true"
+            android:label="싱가포르" />
+        <activity
+            android:name=".catalog_kotakinabalu"
+            android:exported="true"
+            android:label="코타키나발루" />
+        <activity
+            android:name=".catalog_japan_list"
+            android:exported="true"
+            android:label="일본" />
+        <activity
+            android:name=".catalog_japan_osaka"
+            android:exported="true"
+            android:label="일본" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">final_project</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_kotakinablau">MapsActivity_kotakinablau</string>
+    <string name="title_activity_maps_singapore">MapsActivity_singapore</string>
+    <string name="title_activity_maps_japan">MapsActivity_japan</string>
+</resources>
