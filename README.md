@@ -1,4 +1,4 @@
-# mobile-project-project
+# mobile-programming-project
 
 모바일 프로그래밍 프로젝트 코드 -> 안드로이드 스튜디오 사용
 
